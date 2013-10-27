@@ -1,0 +1,108 @@
+#wrapper{
+  width: 1030px;
+  margin: 0px auto;
+}
+/*.sidebar{
+  width: 250px;
+  float: left;
+  height: 50px;
+}*/
+/*#content{
+  background-color: aquamarine;
+  margin-left: 255px;
+}*/
+#header{
+  padding-bottom: 10px;
+}
+.info .title,
+#header .site-title{
+  background-color: #069153;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.9);
+}
+#header .site-title{
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Times New Roman', serif;
+  padding: 12px 12px 20px;
+  color: #fff;/*#ffccdd*/
+  position: relative;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.9);
+}
+#form{
+  background: url("../imgs/form_bg.jpg") left top repeat;
+  padding: 18px;
+}
+#form > div{
+  background: url("../imgs/coffe_gerl.png") left bottom no-repeat;
+  min-height: 690px;
+}
+.info{
+  background-color: rgba(95,187,115,0.95);
+  float: right;
+  margin-left: 20px;
+}
+.info,
+.info input[type="submit"]{
+  color: #fff;
+}
+.info input[type="submit"]:hover{
+  color: #ddd;
+  cursor: pointer;
+  margin-top: 36px;
+  margin-bottom: 28px;
+  box-shadow: 0px 4px 1px #069153; 
+}
+.info .form-body,
+.info .form-body input,
+.info .form-body select{
+  display: block;
+  width: 226px;
+}
+.info label{
+  padding-top: 12px;
+  display: inline-block;
+}
+.info .title{
+  font-size: 28px;
+  padding: 20px;
+  text-align: center;
+}
+.info.order-form .title{
+  padding-left: 65px;
+}
+.info.order-form .title{
+  background-image: url("../imgs/cart.png");
+  background-position: 20px center;
+  background-repeat: no-repeat;
+}
+.info .form-body{
+  font-family: sans-serif;
+  font-size: 18px;
+  padding: 17px 60px 23px;
+}
+.info input[type="submit"]{
+  width: 176px;
+  margin: 32px auto;
+  padding: 12px;
+  font-size: 24px;
+  background-color: #22a86c;
+  border:none;
+  border-radius: 7px;
+  box-shadow: 0px 8px 1px #069153; 
+}
+.info input[type="submit"]{
+}
+.steps .form-body{
+  width: 185px;
+}
+.steps .form-body ol{
+  list-style: decimal;
+  font-size: 22px;
+}
+.steps .form-body ol li{
+  padding: 10px 0px;
+}
+#content{
+  background-color: aquamarine;
+  overflow: hidden;
+}
